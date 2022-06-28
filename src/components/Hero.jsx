@@ -11,22 +11,29 @@ export function Hero() {
         </p>
 
         <div className="lg:mt-6 pb-2 flex flex-row justify-evenly">
+          <a
+            href="#"
+            className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray hover:underline underline-offset-8 hover:text-palette1-platinum transition-colors flex items-center gap-2"
+          >
+            Github
+            <ArrowUpRight size={16} weight="bold" className="text-palette1-platinum" />
+          </a>
 
-          <span className="flex items-end gap-1 group">
-            <a href="#" className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray group-hover:underline underline-offset-4">Github</a>
-            <ArrowUpRight size={16} weight="bold" />
-          </span>
+          <a
+            href="#"
+            className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray hover:underline underline-offset-8 hover:text-palette1-platinum transition-colors flex items-center gap-2"
+          >
+            LinkedIn
+            <ArrowUpRight size={16} weight="bold" className="text-palette1-platinum" />
+          </a>
 
-          <span className="flex items-end gap-1 group">
-            <a href="#" className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray group-hover:underline underline-offset-4">LinkedIn</a>
-            <ArrowUpRight size={16} weight="bold" />
-          </span>
-
-          <span className="flex items-end gap-1 group">
-            <a href="#" className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray group-hover:underline underline-offset-4">Curriculo</a>
-            <ArrowUpRight size={16} weight="bold" />
-          </span>
-
+          <a
+            href="#"
+            className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray hover:underline underline-offset-8 hover:text-palette1-platinum transition-colors flex items-center gap-2"
+          >
+            Curriculo
+            <ArrowUpRight size={16} weight="bold" className="text-palette1-platinum" />
+          </a>
         </div>
 
       </div>
