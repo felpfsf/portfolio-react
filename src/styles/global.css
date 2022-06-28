@@ -8,11 +8,11 @@ body {
 }
 
 .input {
-  @apply h-14 w-full mb-8 p-4 border-b-2 text-sm text-palette1-grayBlue border-palette1-alabaster focus:outline-none focus:border-palette1-onyx;
+  @apply h-14 sm:w-full mb-8 p-4 border-b-2 text-sm text-palette1-grayBlue border-palette1-alabaster focus:outline-none focus:border-palette1-onyx;
 }
 
 .label {
-  @apply text-sm text-palette1-fireOpal absolute left-8 peer-placeholder-shown:text-base peer-placeholder-shown:text-palette1-sunray;
+  @apply text-sm text-palette1-fireOpal absolute sm:left-8 lg:left-20 peer-placeholder-shown:text-base peer-placeholder-shown:text-palette1-sunray;
 }
 
 .textarea {

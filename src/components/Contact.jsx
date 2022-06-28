@@ -1,12 +1,12 @@
 export function Contact() {
   return (
-    <section id="contact" className="bg-palette1-platinum p-4">
+    <section id="contact" className="bg-palette1-platinum sm:p-4 lg:p-16">
       <h2 className="text-xl text-palette1-onyx font-bold mb-2">
         Contato
       </h2>
       <p className="sm:text-sm md:text-base text-palette1-grayBlue mb-8">
         Quer entrar em contato comigo?<br />
-        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+        Preencha o formulário e entrarei em contato.
       </p>
       <form action="" className="">
         <input id="name" type="text" placeholder="Digite seu nome" required className="peer input" />
