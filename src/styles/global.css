@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-raleway bg-palette1-onyx text-palette1-alabaster;
+  -webkit-font-smoothing: antialiased;
+}
+
+.input {
+  @apply h-14 w-full mb-8 p-4 border-b-2 text-sm text-palette1-grayBlue border-palette1-alabaster focus:outline-none focus:border-palette1-onyx;
+}
+
+.label {
+  @apply text-sm text-palette1-fireOpal absolute left-8 peer-placeholder-shown:text-base peer-placeholder-shown:text-palette1-sunray;
+}
+
+.textarea {
+  @apply w-full h-32 mb-8 p-4 border-b-2 text-sm text-palette1-grayBlue border-palette1-alabaster focus:outline-none focus:border-palette1-onyx resize-none;
+}

@@ -1,0 +1,9 @@
+export function Schollarship() {
+  return (
+    <section id="schollarship" className="bg-palette1-platinum p-4">
+      <h2 className="text-xl text-palette1-onyx font-bold">
+        Formação Acadêmica
+      </h2>
+    </section>
+  )
+}
