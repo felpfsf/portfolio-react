@@ -12,8 +12,13 @@ AINDA EM CONSTRUÇÃO
 
 Challenge da formação Alura NextONE - O objetivo é construir uma landing page do usuário com informçãoes pessoais, skills, formação, projetos e formulário de contato.
 
-## Aprendizados
-...
+Validação feita no formulário para o usuário digitar os dados corretamente.
+
+## Aprendizado
+
+Melhorando a experiência com React e o uso de TailwindCSS, com apply, variants e demais funções.
+
+Opcionalmente estou adicionando responsividade ao projeto, deixando otimizado para aparelhos com resoluções de 360px, 768px e 1440px ou superior. Animações nos botões e cards de skills e formação.
 
 ## 🛠 Stack utilizada
 
@@ -25,6 +30,8 @@ Challenge da formação Alura NextONE - O objetivo é construir uma landing page
 ## Demonstração
 
 AINDA EM CONSTRUÇÃO
+
+Mobile 
 
 ...
 
