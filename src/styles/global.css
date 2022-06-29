@@ -16,7 +16,7 @@ body {
 }
 
 .label {
-  @apply text-sm text-palette1-fireOpal absolute sm:left-8 lg:left-20 peer-placeholder-shown:text-base peer-placeholder-shown:text-palette1-sunray;
+  @apply text-sm text-palette1-fireOpal absolute sm:left-8 lg:left-[500px] lg:hidden peer-placeholder-shown:text-base peer-placeholder-shown:text-palette1-sunray;
 }
 
 .textarea {
