@@ -23,7 +23,7 @@ export function Contact() {
           <textarea id="message" placeholder="Sua mensagem" required className="textarea" />
           <label htmlFor="message" className="label">Sua Mensagem</label>
 
-          <button type="submit" className="text-sm text-palette1-platinum bg-palette1-sunray py-3 px-4 w-[150px]">Enviar mensagem</button>
+          <button type="submit" className="text-sm text-palette1-platinum bg-palette1-sunray py-3 px-4 w-[150px] primary:bg-palette1-fireOpal transition-colors">Enviar mensagem</button>
         </form>
       </div>
 
