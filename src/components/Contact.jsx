@@ -12,16 +12,16 @@ export function Contact() {
         </p>
         <form action="" className="">
           <input id="name" type="text" placeholder="Digite seu nome" required className="peer input" />
-          <label for="name" className="label">Nome</label>
+          <label htmlFor="name" className="label">Nome</label>
 
           <input id="email" type="email" placeholder="Digite seu email" required className="peer input" />
-          <label for="email" className="label">E-mail</label>
+          <label htmlFor="email" className="label">E-mail</label>
 
           <input id="subject" type="text" placeholder="Assunto" required className="peer input" />
-          <label for="subject" className="label">Assunto da mensagem</label>
+          <label htmlFor="subject" className="label">Assunto da mensagem</label>
 
           <textarea id="message" placeholder="Sua mensagem" required className="textarea" />
-          <label for="message" className="label">Sua Mensagem</label>
+          <label htmlFor="message" className="label">Sua Mensagem</label>
 
           <button type="submit" className="text-sm text-palette1-platinum bg-palette1-sunray py-3 px-4 w-[150px]">Enviar mensagem</button>
         </form>
