@@ -4,7 +4,7 @@ export function Schollarship() {
       <h2 className="sm:text-2xl lg:text-4xl text-palette1-onyx font-bold text-center mb-8">
         Formação Acadêmica
       </h2>
-      <div className="flex sm:flex-col md:flex-row justify-center gap-4">
+      <div className="flex sm:flex-col md:flex-row md:flex-wrap justify-center gap-4">
 
         <div className="flex sm:flex-col">
           <img src="https://via.placeholder.com/368x286.png?text=Imagem_da_formação" alt="" className="mb-2"/>
