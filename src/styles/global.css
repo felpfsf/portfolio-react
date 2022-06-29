@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply font-raleway bg-palette1-onyx text-palette1-alabaster;
   -webkit-font-smoothing: antialiased;
