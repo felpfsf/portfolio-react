@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "phosphor-react";
+import heroImg from '../assets/Freelancer-cuate.png'
 
 export function Hero() {
   return (
@@ -37,7 +38,8 @@ export function Hero() {
         </div>
 
       </div>
-      <img src="https://www.github.com/felpfsf.png" alt="" className="rounded-full sm:w-32 md:w-44 lg:w-96 self-start mb-4" />
+      {/* <img src="https://www.github.com/felpfsf.png" alt="" className="rounded-full sm:w-32 md:w-44 lg:w-96 self-start mb-4" /> */}
+      <img src={heroImg} alt="" className="rounded-2xl sm:w-40 md:w-44 lg:w-96 self-start mb-4" />
     </section>
   )
 }
