@@ -4,7 +4,7 @@ import { SchollarshipCards } from "./SchollarshipCards";
 export function Schollarship() {
 
   return (
-    <section id="schollarship" className="bg-palette1-platinum sm:p-4 lg:p-16">
+    <section id="schollarship" className="bg-palette1-platinum sm:p-4 md:p-8 lg:p-16">
       <h2 className="sm:text-2xl lg:text-4xl text-palette1-onyx font-bold text-center mb-8">
         Formação Acadêmica
       </h2>

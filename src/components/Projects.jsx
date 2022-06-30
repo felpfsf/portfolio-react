@@ -3,11 +3,11 @@ import { ProjectsCards } from "./ProjectsCards";
 
 export function Projects() {
   return (
-    <section id="projects" className="sm:p-4 lg:p-36">
+    <section id="projects" className="sm:p-4 md:p-8 lg:p-36">
       <h2 className="sm:text-2xl lg:text-4xl text-palette1-platinum font-bold text-center mt-8 mb-4">
         Projetos
       </h2>
-      <div>
+      <div className="flex flex-col items-center">
 
         {projetos.map(projetosData => {
           return (
