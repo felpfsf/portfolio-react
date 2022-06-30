@@ -5,7 +5,7 @@ export function Contact() {
       <div className="lg:w-1/3 sm:w-full">
         <div>
           <h2 className="text-xl text-palette1-onyx font-bold mb-2">
-            Contato teste
+            Contato
           </h2>
 
           <p className="sm:text-sm md:text-base text-palette1-grayBlue mb-8">
