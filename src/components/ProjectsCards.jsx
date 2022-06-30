@@ -4,7 +4,7 @@ export function ProjectsCards(props) {
       <img src={props.imgUrl} alt="" className="border-2 border-palette1-platinum sm:w-[600px] md:w-1/2" />
       <div>
         <h3 className="text-xl font-bold">{props.title}</h3>
-        <p className="text-base">{props.desc}</p>
+        <p className="text-base w-60">{props.desc}</p>
         <div className="mt-2 flex gap-4">
           <a
             href={props.urlRepo}
