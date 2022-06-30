@@ -6,14 +6,14 @@ export function Hero() {
     <section id="hero" className="sm:p-4 md:p-8 flex items-center justify-around sm:flex-col-reverse md:flex-row md:gap-8">
 
       <div className="flex flex-col gap-4">
-        <h2 className="sm:text-xl lg:text-5xl font-bold">Hey, My Name is Felipe F. Lorem ipsum dolor sit amet.</h2>
+        <h2 className="sm:text-xl lg:text-5xl font-bold">Olá! Me chamo Felipe F. e sou desenvolvedor Front-end.</h2>
         <p className="leading-tight lg:text-2xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nihil?
+          Trabalho com o desenvolvimento de websites e apps, quer me contratar?
         </p>
 
         <div className="lg:mt-6 pb-2 flex flex-row justify-evenly">
           <a
-            href="#"
+            href="https://github.com/felpfsf"
             className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray hover:underline underline-offset-8 hover:text-palette1-platinum transition-colors flex items-center gap-2"
           >
             Github
@@ -21,7 +21,7 @@ export function Hero() {
           </a>
 
           <a
-            href="#"
+            href="http://linkedin.com/in/felipefsf"
             className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray hover:underline underline-offset-8 hover:text-palette1-platinum transition-colors flex items-center gap-2"
           >
             LinkedIn
@@ -29,7 +29,7 @@ export function Hero() {
           </a>
 
           <a
-            href="#"
+            href="https://cursos.alura.com.br/emprega-one/profile/feferreira-sf"
             className="sm:text-sm lg:text-xl font-semibold text-palette1-sunray hover:underline underline-offset-8 hover:text-palette1-platinum transition-colors flex items-center gap-2"
           >
             Curriculo
