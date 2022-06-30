@@ -56,7 +56,7 @@ export function Skills() {
         <div className=" p-4 flex flex-col items-center justify-center w-32 h-32">
           {/* <img src="https://via.placeholder.com/752x456.png?text=Imagem_do_projeto" alt="" className="w-20 h-20" /> */}
           <PersonSimpleRun size={56} className="text-palette1-alabaster font-bold" />
-          <p className="text-base text-palette1-alabaster font-bold mt-2">Esportes</p>
+          <p className="text-base text-palette1-alabaster font-bold mt-2">Corrida</p>
         </div>
 
         <div className=" p-4 flex flex-col items-center justify-center w-32 h-32">
