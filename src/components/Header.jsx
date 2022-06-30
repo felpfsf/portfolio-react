@@ -1,5 +1,5 @@
 import { List, X } from "phosphor-react";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -11,6 +11,8 @@ export function Header() {
   const closeMenu = () => {
     setIsNavOpen(false)
   }
+
+
   return (
     <section className="sticky top-0 bg-palette1-onyx">
 
