@@ -1,7 +1,7 @@
 export const SchollarshipCards = (props) => {
   return (
     <div className="flex flex-col">
-      <div className="flex justify-center w-[368px] h-[286px] p-16">
+      <div className="flex justify-center w-[340px] p-10">
         <img src={props.imgUrl} alt="" className="w-50 h-40" />
       </div>
       <div>
