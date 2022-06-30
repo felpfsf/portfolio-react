@@ -6,7 +6,7 @@ import { SkillsCards } from "./SkillsCards"
 export function Skills() {
   return (
     <section id="skills" className="sm:p-4 lg:p-16">
-      <h2 className="sm:text-xl lg:text-3xl text-palette1-platinum font-bold text-center mb-8">Skills {'&'} Hobbies</h2>
+      <h2 className="sm:text-xl lg:text-4xl text-palette1-platinum font-bold text-center mb-8">Skills {'&'} Hobbies</h2>
 
       <div className="flex flex-row flex-wrap items-center justify-center gap-4">
 
@@ -38,7 +38,7 @@ export function Skills() {
 
       </div>
 
-      <h2 className="sm:text-xl lg:text-3xl text-palette1-platinum font-bold text-center mt-20 mb-8">Hobbies</h2>
+      <h2 className="sm:text-xl lg:text-4xl text-palette1-platinum font-bold text-center mt-20 mb-8">Hobbies</h2>
       <div className="flex flex-row flex-wrap items-center justify-center gap-4">
 
         <div className=" p-4 flex flex-col items-center justify-center w-32 h-32">
