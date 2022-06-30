@@ -2,7 +2,7 @@ import contactImg from '../assets/Get-in-touch-rafiki.png'
 
 export function Contact() {
   return (
-    <section id="contact" className="bg-palette1-platinum sm:p-4 lg:p-16 lg:flex lg:justify-center lg:gap-20">
+    <section id="contact" className="bg-palette1-platinum sm:p-4 md:p-8 lg:p-16 lg:flex lg:justify-center lg:gap-20">
       <img src={contactImg} alt="" className="sm:hidden md:hidden lg:block h-[560px]" />
       <div className="lg:w-1/3 sm:w-full">
         <div>
