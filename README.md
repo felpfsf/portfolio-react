@@ -1,6 +1,10 @@
 <div align="center">
 
  <!-- :uk: [English version](/Readme/README-en.md) / [Pt-BR version](../README.md) -->
+ 
+
+![portifolio_capa](https://user-images.githubusercontent.com/2619027/176796884-d3325470-528c-4448-bfb1-feef9718b7a3.png)
+
    
 
   ![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/portfolio-react) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/portfolio-react) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/portfolio-react)
