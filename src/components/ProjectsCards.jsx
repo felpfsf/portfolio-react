@@ -1,7 +1,7 @@
 export function ProjectsCards(props) {
   return (
     <div className={props.id % 2 === 1 ? 'mb-16 flex sm:flex-col md:flex-row lg:flex-row md:items-center gap-8' : 'mb-16 flex sm:flex-col md:flex-row-reverse md:items-center gap-8'}>
-      <div className="border border-palette1-fireOpal sm:w-80 sm:h-60 flex justify-center">
+      <div className="sm:w-80 sm:h-60 flex justify-center">
         <img src={props.imgUrl} alt="" className="w-auto" />
       </div>
       <div>
