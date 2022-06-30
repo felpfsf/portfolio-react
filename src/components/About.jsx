@@ -1,8 +1,8 @@
 export function About() {
   return (
-    <section id="about" className="bg-palette1-platinum sm:p-4 md:p-8 lg:p-16">
+    <section id="about" className="bg-palette1-platinum sm:p-4 md:p-8 lg:p-40">
       <h2 className="sm:text-2xl lg:text-4xl text-palette1-onyx font-bold mb-4">Sobre mim</h2>
-      <p className="sm:text-sm md:text-sm lg:text-base text-palette1-grayBlue leading-relaxed mb-4">
+      <p className="sm:text-sm md:text-sm lg:text-base text-palette1-grayBlue leading-relaxed mb-8">
 
         Desde 2007 atuei como webdesigner em empresas e como freelancer, desenvolvendo hot-sites para instituição de ensino, blogs e páginas de apresentação para diversos clientes. Nesse mesmo ano ingressei na faculdade de Ciência da Computação e Gestão em Sistemas de Informação pela Uninove, concluindo em 2009 a formção de tecnologa Gestão em Sistemas e 2010 o curso de Ciência da Computação.
 
