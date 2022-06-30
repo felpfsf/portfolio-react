@@ -1,7 +1,7 @@
 export function ProjectsCards(props) {
   return (
     <div className={props.id % 2 === 1 ? 'mb-16 flex lg:flex-row lg:items-center gap-6 sm:flex-col' : 'mb-16 flex lg:flex-row-reverse lg:items-center gap-6 sm:flex-col'}>
-      <img src={props.imgUrl} alt="" className="border-2 border-palette1-platinum sm:w-[600px] md:w-full" />
+      <img src={props.imgUrl} alt="" className="border-2 border-palette1-platinum sm:w-[600px] md:w-1/2" />
       <div>
         <h3 className="text-xl font-bold">{props.title}</h3>
         <p className="text-base">{props.desc}</p>
