@@ -1,7 +1,7 @@
 export function Contact() {
   return (
     <section id="contact" className="bg-palette1-platinum sm:p-4 lg:p-16 lg:flex lg:justify-center lg:gap-20">
-      <img src="https://via.placeholder.com/464x593.png?text=Imagem_do_projeto" alt="" className="md:hidden lg:hidden"/>
+      <img src="https://via.placeholder.com/464x593.png?text=Imagem_do_projeto" alt="" className="sm:hidden md:hidden"/>
       <div className="lg:w-1/3 md:w-full">
         <div>
           <h2 className="text-xl text-palette1-onyx font-bold mb-2">
