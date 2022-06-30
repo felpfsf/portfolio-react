@@ -17,7 +17,7 @@ export function Header() {
     <section className="sticky top-0 bg-palette1-onyx">
 
       <header className="sm:p-4 lg:px-36 sm:mx-8 md:mx-4 lg:mx-4 mb-8 border-b border-palette1-alabaster flex items-center sm:justify-between md:justify-between">
-        <h1 className="font-cursive sm:text-4xl text-palette1-sunray">{'< '}Felipe F.{' />'}</h1>
+        <h1 className="font-cursive sm:text-4xl text-palette1-sunray">Felipe F.</h1>
         <nav>
           <div onClick={showMenu} className="md:hidden">
             <List size={32} className="cursor-pointer" />
